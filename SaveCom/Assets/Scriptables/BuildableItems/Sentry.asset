@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0219cb653d09a44cd84d0c6694e40b8f, type: 3}
+  m_Name: Sentry
+  m_EditorClassIdentifier: 
+  <name>k__BackingField: Sentry
+  <tile>k__BackingField: {fileID: 0}
+  <tileOffset>k__BackingField: {x: 0, y: 0, z: 0}
+  <previewSprite>k__BackingField: {fileID: 21300000, guid: 4ff6c19c107c545cf8ce3dc03f01d607, type: 3}
+  <uiIcon>k__BackingField: {fileID: 21300000, guid: 4ff6c19c107c545cf8ce3dc03f01d607, type: 3}
+  <gameObject>k__BackingField: {fileID: 3813025333943932122, guid: 58c89c8ae1ce24f26b80f6d5130c8751, type: 3}
+  <useCustomCollisionSpace>k__BackingField: 1
+  <CollisionSpace>k__BackingField:
+    x: 0
+    y: 0
+    width: 1
+    height: 1

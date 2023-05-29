@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0219cb653d09a44cd84d0c6694e40b8f, type: 3}
+  m_Name: Tower
+  m_EditorClassIdentifier: 
+  <name>k__BackingField: Wall
+  <tile>k__BackingField: {fileID: 11400000, guid: cc730d1dc54d34fd8a355babce03e670, type: 2}
+  <tileOffset>k__BackingField: {x: 0, y: 0, z: 0}
+  <previewSprite>k__BackingField: {fileID: -155058199, guid: e660928f1c7764937a29fa7ed6d7fde8, type: 3}
+  <uiIcon>k__BackingField: {fileID: -155058199, guid: d71a3dc7aa20fad4f9a99fc76a9254ba, type: 3}
