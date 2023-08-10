@@ -11,13 +11,11 @@ namespace BuildingSystem
     {
         [SerializeField] private List<BuildableItem> buildables;
         [SerializeField] private BuildingPlacer BuildingPlacer;
-
         private int activeBuildableIndex;
 
         private void OnEnable()
         {
-            InputActions.Instance.Player.NextItem.performed += OnNextPerformed;
-            
+            //InputActions.Instance.Player.NextItem.performed += OnNextPerformed;
         }
 
         private void OnNextPerformed(InputAction.CallbackContext ctx)

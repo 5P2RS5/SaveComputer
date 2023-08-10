@@ -12,8 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0219cb653d09a44cd84d0c6694e40b8f, type: 3}
   m_Name: Tower
   m_EditorClassIdentifier: 
-  <name>k__BackingField: Wall
+  <name>k__BackingField: Box
+  <price>k__BackingField: 1000
+  <sell>k__BackingField: 900
   <tile>k__BackingField: {fileID: 11400000, guid: cc730d1dc54d34fd8a355babce03e670, type: 2}
   <tileOffset>k__BackingField: {x: 0, y: 0, z: 0}
   <previewSprite>k__BackingField: {fileID: -155058199, guid: e660928f1c7764937a29fa7ed6d7fde8, type: 3}
   <uiIcon>k__BackingField: {fileID: -155058199, guid: d71a3dc7aa20fad4f9a99fc76a9254ba, type: 3}
+  <gameObject>k__BackingField: {fileID: 0}
+  <useCustomCollisionSpace>k__BackingField: 0
+  <CollisionSpace>k__BackingField:
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  <coords>k__BackingField: {x: 2, y: 5, z: 0}
+  <hp>k__BackingField: 1500
+  <damage>k__BackingField: 3000
+  <period>k__BackingField: 1
+  <ammoSpeed>k__BackingField: 4

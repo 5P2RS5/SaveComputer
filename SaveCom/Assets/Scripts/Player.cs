@@ -10,11 +10,13 @@ public class Player : MonoBehaviour
     Vector2 inputVec;
     public float speed;
     //public Scanner scanner;
-    
     private Rigidbody2D rigid;
     private SpriteRenderer spriter;
     private Animator anim;
-    
+    public AudioSource audioSource;
+
+    public int money;
+
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();

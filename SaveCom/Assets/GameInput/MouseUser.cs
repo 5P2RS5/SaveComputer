@@ -14,7 +14,7 @@ namespace GameInput
 
     public class MouseUser : MonoBehaviour
     {
-        private InputActions inputActions;
+        public InputActions inputActions;
         public Vector2 MousePos { get; private set; } // 마우스 위치
     
         public Vector2 MouseInWorldPosition => Camera.main.ScreenToWorldPoint(MousePos);

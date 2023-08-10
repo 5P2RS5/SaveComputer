@@ -82,24 +82,6 @@ namespace GameInput
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""NextItem"",
-                    ""type"": ""Button"",
-                    ""id"": ""a11ae3fa-a30e-4c26-851f-8d36f474a377"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""PreviousItem"",
-                    ""type"": ""Button"",
-                    ""id"": ""89f5d6c3-d65d-49aa-a91e-858eea0c2d63"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -353,28 +335,6 @@ namespace GameInput
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""CancelAction"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""afce4263-cf51-4a9e-9a91-33b033de08e7"",
-                    ""path"": ""<Keyboard>/e"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""NextItem"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""339d1ca5-9702-469d-8b0e-740ac5fd371b"",
-                    ""path"": ""<Keyboard>/q"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""PreviousItem"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -968,8 +928,6 @@ namespace GameInput
             m_Player_PerformAction = m_Player.FindAction("PerformAction", throwIfNotFound: true);
             m_Player_MousePosition = m_Player.FindAction("MousePosition", throwIfNotFound: true);
             m_Player_CancelAction = m_Player.FindAction("CancelAction", throwIfNotFound: true);
-            m_Player_NextItem = m_Player.FindAction("NextItem", throwIfNotFound: true);
-            m_Player_PreviousItem = m_Player.FindAction("PreviousItem", throwIfNotFound: true);
             // UI
             m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
             m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1049,8 +1007,6 @@ namespace GameInput
         private readonly InputAction m_Player_PerformAction;
         private readonly InputAction m_Player_MousePosition;
         private readonly InputAction m_Player_CancelAction;
-        private readonly InputAction m_Player_NextItem;
-        private readonly InputAction m_Player_PreviousItem;
         public struct PlayerActions
         {
             private @InputActions m_Wrapper;
@@ -1061,8 +1017,6 @@ namespace GameInput
             public InputAction @PerformAction => m_Wrapper.m_Player_PerformAction;
             public InputAction @MousePosition => m_Wrapper.m_Player_MousePosition;
             public InputAction @CancelAction => m_Wrapper.m_Player_CancelAction;
-            public InputAction @NextItem => m_Wrapper.m_Player_NextItem;
-            public InputAction @PreviousItem => m_Wrapper.m_Player_PreviousItem;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -1090,12 +1044,6 @@ namespace GameInput
                 @CancelAction.started += instance.OnCancelAction;
                 @CancelAction.performed += instance.OnCancelAction;
                 @CancelAction.canceled += instance.OnCancelAction;
-                @NextItem.started += instance.OnNextItem;
-                @NextItem.performed += instance.OnNextItem;
-                @NextItem.canceled += instance.OnNextItem;
-                @PreviousItem.started += instance.OnPreviousItem;
-                @PreviousItem.performed += instance.OnPreviousItem;
-                @PreviousItem.canceled += instance.OnPreviousItem;
             }
 
             private void UnregisterCallbacks(IPlayerActions instance)
@@ -1118,12 +1066,6 @@ namespace GameInput
                 @CancelAction.started -= instance.OnCancelAction;
                 @CancelAction.performed -= instance.OnCancelAction;
                 @CancelAction.canceled -= instance.OnCancelAction;
-                @NextItem.started -= instance.OnNextItem;
-                @NextItem.performed -= instance.OnNextItem;
-                @NextItem.canceled -= instance.OnNextItem;
-                @PreviousItem.started -= instance.OnPreviousItem;
-                @PreviousItem.performed -= instance.OnPreviousItem;
-                @PreviousItem.canceled -= instance.OnPreviousItem;
             }
 
             public void RemoveCallbacks(IPlayerActions instance)
@@ -1312,8 +1254,6 @@ namespace GameInput
             void OnPerformAction(InputAction.CallbackContext context);
             void OnMousePosition(InputAction.CallbackContext context);
             void OnCancelAction(InputAction.CallbackContext context);
-            void OnNextItem(InputAction.CallbackContext context);
-            void OnPreviousItem(InputAction.CallbackContext context);
         }
         public interface IUIActions
         {

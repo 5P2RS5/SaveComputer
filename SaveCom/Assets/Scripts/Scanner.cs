@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using BuildingSystem.Models;
 using UnityEngine;
 
 public class Scanner : MonoBehaviour
@@ -14,13 +15,14 @@ public class Scanner : MonoBehaviour
     {
         targets = Physics2D.CircleCastAll(transform.position, scanRange, Vector3.zero, 0, targerLayer);
         nearestTarget = GetNearest();
+        Debug.Log(nearestTarget);
     }
 
     Transform GetNearest()
     {
         Transform result = null;
         float diff = 100; // 최소의 거리 적을 찾기 위해 사용되는 임의의 값
-        
+        Debug.Log("감지한다" + transform.name);
         foreach (RaycastHit2D target in targets)
         {
             Vector3 myPos = transform.position;
@@ -33,7 +35,6 @@ public class Scanner : MonoBehaviour
                 result = target.transform;
             }
         }
-
         return result;
     }
 }

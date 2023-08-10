@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TurretPurple
+  m_Controller: {fileID: 9100000, guid: c5377be20b0f1453ea551ba3593e2516, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d40e1dd2f70494a58a4cdaf6aacca5d9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 72b3582f4f89f404182a425f41395d69, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9d7c08494ccee4725bc3ddc81211ed4b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c29c6fe2917da4a7ca74779295251fa7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 52071895ddad04db782840b6314a2b84, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: db8afa8a1eba144a28600bedd1ae96bc, type: 2}

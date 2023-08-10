@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Tower
   - foreground
+  - Building
   layers:
   - Default
   - TransparentFX
@@ -17,15 +18,15 @@ TagManager:
   - Water
   - UI
   - Player
-  - Enemy
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Virus
+  - Bullet
+  - Tower
+  - Wall
+  - MiniMap
+  - scanRange
+  - Map
+  - Gem
+  - VirusBullet
   - 
   - 
   - 
@@ -51,4 +52,7 @@ TagManager:
     locked: 0
   - name: foreground
     uniqueID: 3265727857
+    locked: 0
+  - name: MiniMap
+    uniqueID: 388777477
     locked: 0

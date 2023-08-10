@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0219cb653d09a44cd84d0c6694e40b8f, type: 3}
+  m_Name: Server
+  m_EditorClassIdentifier: 
+  <name>k__BackingField: Server
+  <price>k__BackingField: 100
+  <sell>k__BackingField: 100
+  <tile>k__BackingField: {fileID: 0}
+  <tileOffset>k__BackingField: {x: 0, y: 0.75, z: 0}
+  <previewSprite>k__BackingField: {fileID: -1067501538, guid: 7f47cc24b24744a1f9fbdf4bcfa4827c, type: 3}
+  <uiIcon>k__BackingField: {fileID: 21300000, guid: 667f6dff8bfeb41678304a86767888c3, type: 3}
+  <gameObject>k__BackingField: {fileID: 533188142206607369, guid: 7786077dccc15458d813bfa4bcd1f2f4, type: 3}
+  <useCustomCollisionSpace>k__BackingField: 0
+  <CollisionSpace>k__BackingField:
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  <coords>k__BackingField: {x: 4, y: 4, z: 0}
+  <init_hp>k__BackingField: 0
+  <init_damage>k__BackingField: 0
+  <init_period>k__BackingField: 0
+  <init_ammoSpeed>k__BackingField: 0
+  <CanAttack>k__BackingField: 0
+  <hp>k__BackingField: 100
+  <damage>k__BackingField: 100
+  <period>k__BackingField: 0.2
+  <ammoSpeed>k__BackingField: 3
+  <scanRange>k__BackingField: 0

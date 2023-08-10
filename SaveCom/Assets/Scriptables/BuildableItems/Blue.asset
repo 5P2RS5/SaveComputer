@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0219cb653d09a44cd84d0c6694e40b8f, type: 3}
+  m_Name: Blue
+  m_EditorClassIdentifier: 
+  <name>k__BackingField: Blue
+  <price>k__BackingField: 3
+  <sell>k__BackingField: 100
+  <tile>k__BackingField: {fileID: 0}
+  <tileOffset>k__BackingField: {x: 0, y: 0, z: 0}
+  <previewSprite>k__BackingField: {fileID: 1188803645, guid: 2891a2fff97eb42c99668098519a7dbe, type: 3}
+  <uiIcon>k__BackingField: {fileID: -1639331403, guid: 2891a2fff97eb42c99668098519a7dbe, type: 3}
+  <gameObject>k__BackingField: {fileID: 4195148693849884395, guid: 67e4df442ef8b4ad8a6f3479e492fce2, type: 3}
+  <useCustomCollisionSpace>k__BackingField: 1
+  <CollisionSpace>k__BackingField:
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  <coords>k__BackingField: {x: 8, y: 3, z: 0}
+  <init_hp>k__BackingField: 100
+  <init_damage>k__BackingField: 40
+  <init_period>k__BackingField: 1
+  <init_ammoSpeed>k__BackingField: 15
+  <type>k__BackingField: 2
+  <bulletSprite>k__BackingField: {fileID: -734892446, guid: 17dcab3f6253c4eff821a6d1efdcab3b, type: 3}
+  <hp>k__BackingField: 11
+  <damage>k__BackingField: 10
+  <period>k__BackingField: 1
+  <ammoSpeed>k__BackingField: 15
+  <scanRange>k__BackingField: 7
+  <rangetext>k__BackingField: 'Range : 7'
+  <description>k__BackingField: Slow
+  <rangeSprite>k__BackingField: {fileID: -63787957, guid: 0456b1e226a0a4adc8d61b1a8dca410f, type: 3}
+  <descriptionSprite>k__BackingField: {fileID: 1707345849, guid: 0456b1e226a0a4adc8d61b1a8dca410f, type: 3}
+  <hitSound>k__BackingField: {fileID: 8300000, guid: ccd8abe61ce9a4ae099a143e9e61111e, type: 3}

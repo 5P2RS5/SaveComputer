@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4419b33bdaa784b6b8b32662f3c9de26, type: 3}
+  m_Name: Ranged
+  m_EditorClassIdentifier: 
+  <name>k__BackingField: Ranged
+  <hp>k__BackingField: 350
+  <speed>k__BackingField: 7
+  <power>k__BackingField: 30
+  <attackPeriod>k__BackingField: 2
+  <animCon>k__BackingField: {fileID: 9100000, guid: f62ccd64a9b5e4579a3d71255800ec65, type: 2}
+  <scanRange>k__BackingField: 4
+  <gameObject>k__BackingField: {fileID: 0}
+  <cost>k__BackingField: 1
+  <Type>k__BackingField: 1

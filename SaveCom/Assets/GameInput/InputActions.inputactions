@@ -58,24 +58,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "NextItem",
-                    "type": "Button",
-                    "id": "a11ae3fa-a30e-4c26-851f-8d36f474a377",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "PreviousItem",
-                    "type": "Button",
-                    "id": "89f5d6c3-d65d-49aa-a91e-858eea0c2d63",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -329,28 +311,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "CancelAction",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "afce4263-cf51-4a9e-9a91-33b033de08e7",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "NextItem",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "339d1ca5-9702-469d-8b0e-740ac5fd371b",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "PreviousItem",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
